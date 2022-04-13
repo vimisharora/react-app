@@ -1,0 +1,102 @@
+
+.containerCard{
+    padding: auto;
+    text-align: center;
+    background: url("./bg.jpg");
+    background-size: contain;
+    background-repeat: round;
+    width: 97%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5%;
+    margin-bottom: 0%;
+  }
+  .containerCard2{
+    padding: auto;
+    text-align: center;
+    background: #c5daeb;
+    background-size: contain;
+    background-repeat: round;
+    width: 97%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5%;
+    margin-top: 0%;
+  }
+  .containerCard2 h2{
+    color: #131247;
+    margin: 5%;
+  }
+  
+  .container {
+    flex-grow: 1;
+    min-height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .box {
+    display: flex;
+    padding: 1rem;
+    background: transparent;
+    height: fit-content;
+    width: 50%;
+    border: 5px solid white;
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  
+  .text-bg {
+    text-align: left;
+    padding: 2rem;
+  
+    /* flex-grow: 1; */
+    background-color: rgb(235, 234, 240, 0.6);
+    height: fit-content;
+    width: 1000px;
+  }
+  
+  .text-bg h1 {
+    color: #535e81;
+    margin: 0;
+  }
+  
+  .text-bg h3 {
+    color: #618abc;
+    margin: 1rem 0;
+  }
+  .card{
+    padding: 2%;
+    align-items: center;
+    background-color: #c5daeb;
+    width: 75%;
+    flex-direction: row;
+  }
+  .card p{
+    border-left: 3px solid gray;
+    padding: 2%;
+    margin: 20px;
+    background-color: #c5daeb;
+    width: 100%;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
