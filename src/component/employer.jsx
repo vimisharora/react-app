@@ -23,7 +23,7 @@ class Employer extends Component {
             <div className='containerCard2'>
                 <h2><hr style={{height:5}}/>Few of our notable Clients<hr style={{height:5}}/></h2>
                 <div className='card'>
-                    <img src="src/component/clients.png"  />
+                    <img src="src/component/clients.png" alt='' />
                     </div>
                     </div>
             <div className='containerCard2'>
