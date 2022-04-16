@@ -2,7 +2,7 @@
 .containerCard{
     padding: auto;
     text-align: center;
-    background: url("./bg.jpg");
+    background: url("./employers.jpg");
     background-size: contain;
     background-repeat: round;
     width: 97%;
@@ -17,7 +17,7 @@
   .containerCard2{
     padding: auto;
     text-align: center;
-    background: #c5daeb;
+    background: #dcf7f5;
     background-size: contain;
     background-repeat: round;
     width: 97%;
@@ -49,6 +49,7 @@
   .box {
     display: flex;
     padding: 1rem;
+    text-align-last: center;
     background: transparent;
     height: fit-content;
     width: 50%;
@@ -61,11 +62,11 @@
   .text-bg {
     text-align: left;
     padding: 2rem;
-  
+    
     /* flex-grow: 1; */
     background-color: rgb(235, 234, 240, 0.6);
     height: fit-content;
-    width: 1000px;
+    width: 80%;
   }
   
   .text-bg h1 {
@@ -74,13 +75,13 @@
   }
   
   .text-bg h3 {
-    color: #618abc;
+    color: #dcf7f5;
     margin: 1rem 0;
   }
   .card{
     padding: 2%;
     align-items: center;
-    background-color: #c5daeb;
+    background-color: #dcf7f5;
     width: 75%;
     flex-direction: row;
   }
@@ -88,7 +89,7 @@
     border-left: 3px solid gray;
     padding: 2%;
     margin: 20px;
-    background-color: #c5daeb;
+    background-color: #dcf7f5;
     width: 100%;
   }
   

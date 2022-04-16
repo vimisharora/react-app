@@ -2,7 +2,7 @@
 .containerCard{
   padding: auto;
   text-align: center;
-  background: url("./bg.jpg");
+  background: url("./about.jpg");
   background-size: contain;
   background-repeat: round;
   width: 97%;
@@ -51,9 +51,9 @@
   padding: 1rem;
   background: transparent;
   height: fit-content;
-  width: 50%;
-  border: 5px solid cyan;
-  color: cyan;
+  /* width: 50%; */
+  border: 5px solid white;
+  color: white;
   font-size: 200%;
   font-weight: bolder;
 }

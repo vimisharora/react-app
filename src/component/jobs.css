@@ -2,7 +2,7 @@
 .containerCard{
   padding: auto;
   text-align: center;
-  background: url("./bg.jpg");
+  background: url("./job.jpg");
   background-size: contain;
   background-repeat: round;
   width: 97%;
@@ -33,6 +33,11 @@
   color: #131247;
   margin: 5%;
 }
+.containerCard2 h4{
+  color: #131247;
+  margin: 5%;
+}
+
 
 .container {
   flex-grow: 1;
@@ -50,10 +55,12 @@
   display: flex;
   padding: 1rem;
   background: transparent;
+  align-content: center;
+  flex-direction: row;
   height: fit-content;
   width: 50%;
-  border: 5px solid cyan;
-  color: cyan;
+  border: 5px solid gray;
+  color: gray;
   font-size: 200%;
   font-weight: bolder;
 }
@@ -61,8 +68,8 @@
 .text-bg {
   text-align: left;
   padding: 2rem;
-
-  /* flex-grow: 1; */
+  flex-direction: row;
+  /* flex-grow: 1;  */
   background-color: rgb(235, 234, 240, 0.6);
   height: fit-content;
   width: 1000px;
@@ -78,7 +85,13 @@
   margin: 1rem 0;
 }
 .text-bg p{
-  text-align: justify;
+  flex-direction: row;
+}
+.rows{
+  padding: 2%;
+  align-items: center;
+  width: 60%;
+  flex-direction: row;
 }
 .card{
   padding: 2%;
